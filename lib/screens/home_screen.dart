@@ -33,13 +33,13 @@ class _HomeScreenState extends State<HomeScreen> {
                         alignment: Alignment.bottomRight,
                         child: Text(
                           userInput.toString(),
-                          style: TextStyle(fontSize: 35, color: Colors.black),
+                          style: TextStyle(fontSize: 35, color: Colors.white),
                         ),
                       ),
                       SizedBox(height: 15,),
                       Text(
                         answer.toString(),
-                        style: TextStyle(fontSize: 40, color: Colors.black),
+                        style: TextStyle(fontSize: 40, color: Colors.white),
                       ),
                     ],
                   ),
